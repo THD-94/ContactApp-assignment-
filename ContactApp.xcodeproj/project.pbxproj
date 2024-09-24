@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9FCCAC2CA1E46D0013CCA9 /* ArchivedContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FCCAB2CA1E46D0013CCA9 /* ArchivedContact.swift */; };
+		8B9FCCAE2CA1E4CD0013CCA9 /* ContactDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FCCAD2CA1E4CD0013CCA9 /* ContactDetailSheet.swift */; };
+		8B9FCCB02CA1F1D30013CCA9 /* ContactList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9FCCAF2CA1F1D30013CCA9 /* ContactList.swift */; };
 		8BB7C7972C9AFAD500EBDB56 /* ContactAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C7962C9AFAD500EBDB56 /* ContactAppApp.swift */; };
 		8BB7C7992C9AFAD500EBDB56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C7982C9AFAD500EBDB56 /* ContentView.swift */; };
 		8BB7C79B2C9AFAD700EBDB56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB7C79A2C9AFAD700EBDB56 /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		8BB7C7A82C9AFAD700EBDB56 /* ContactAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C7A72C9AFAD700EBDB56 /* ContactAppTests.swift */; };
 		8BB7C7B22C9AFAD700EBDB56 /* ContactAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C7B12C9AFAD700EBDB56 /* ContactAppUITests.swift */; };
 		8BB7C7B42C9AFAD700EBDB56 /* ContactAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB7C7B32C9AFAD700EBDB56 /* ContactAppUITestsLaunchTests.swift */; };
+		8BE2700A2CA1DF9C00DE5F82 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE270092CA1DF9C00DE5F82 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B9FCCAB2CA1E46D0013CCA9 /* ArchivedContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchivedContact.swift; sourceTree = "<group>"; };
+		8B9FCCAD2CA1E4CD0013CCA9 /* ContactDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailSheet.swift; sourceTree = "<group>"; };
+		8B9FCCAF2CA1F1D30013CCA9 /* ContactList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactList.swift; sourceTree = "<group>"; };
 		8BB7C7932C9AFAD500EBDB56 /* ContactApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7C7962C9AFAD500EBDB56 /* ContactAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppApp.swift; sourceTree = "<group>"; };
 		8BB7C7982C9AFAD500EBDB56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		8BB7C7AD2C9AFAD700EBDB56 /* ContactAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB7C7B12C9AFAD700EBDB56 /* ContactAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITests.swift; sourceTree = "<group>"; };
 		8BB7C7B32C9AFAD700EBDB56 /* ContactAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8BE270092CA1DF9C00DE5F82 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +102,14 @@
 		8BB7C7952C9AFAD500EBDB56 /* ContactApp */ = {
 			isa = PBXGroup;
 			children = (
+				8B9FCCAF2CA1F1D30013CCA9 /* ContactList.swift */,
 				8BB7C7962C9AFAD500EBDB56 /* ContactAppApp.swift */,
 				8BB7C7982C9AFAD500EBDB56 /* ContentView.swift */,
-				8BB7C79A2C9AFAD700EBDB56 /* Assets.xcassets */,
+				8BE270092CA1DF9C00DE5F82 /* Contact.swift */,
+				8B9FCCAB2CA1E46D0013CCA9 /* ArchivedContact.swift */,
+				8B9FCCAD2CA1E4CD0013CCA9 /* ContactDetailSheet.swift */,
 				8BB7C79C2C9AFAD700EBDB56 /* Preview Content */,
+				8BB7C79A2C9AFAD700EBDB56 /* Assets.xcassets */,
 			);
 			path = ContactApp;
 			sourceTree = "<group>";
@@ -191,7 +203,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					8BB7C7922C9AFAD500EBDB56 = {
 						CreatedOnToolsVersion = 15.4;
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9FCCB02CA1F1D30013CCA9 /* ContactList.swift in Sources */,
+				8BE2700A2CA1DF9C00DE5F82 /* Contact.swift in Sources */,
+				8B9FCCAE2CA1E4CD0013CCA9 /* ContactDetailSheet.swift in Sources */,
 				8BB7C7992C9AFAD500EBDB56 /* ContentView.swift in Sources */,
+				8B9FCCAC2CA1E46D0013CCA9 /* ArchivedContact.swift in Sources */,
 				8BB7C7972C9AFAD500EBDB56 /* ContactAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +491,6 @@
 		8BB7C7BB2C9AFAD700EBDB56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -495,7 +510,6 @@
 		8BB7C7BC2C9AFAD700EBDB56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -515,7 +529,6 @@
 		8BB7C7BE2C9AFAD700EBDB56 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCY8YVUWK9;
@@ -533,7 +546,6 @@
 		8BB7C7BF2C9AFAD700EBDB56 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = YCY8YVUWK9;
